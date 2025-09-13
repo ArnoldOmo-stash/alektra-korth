@@ -1,0 +1,63 @@
+section {
+    text-shadow:
+        0 0 8px #ff69b4,
+        0 0 16px #ff69b4,
+        0 0 24px #fff;
+}
+h1 {
+    font-family: cursive, "Comic Sans MS", "Brush Script MT", sans-serif;
+    text-align: center;
+    color: #fff;
+    background: transparent;
+    text-shadow:
+        0 0 10px #ff69b4,
+        0 0 20px #ff69b4,
+        0 0 30px #ff69b4;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.7);
+    object-fit: fill;
+    width: 150px;
+    height: 150px;
+    transform: rotate(360deg);
+    transition: 2s;
+}
+body {
+    background-color: lightblue;
+    font-family: Aptos, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+nav {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px #d35400;
+}
+section {
+    margin-bottom: 20px;
+    border-radius: 10%;
+    text-shadow: #ff69b4;
+}
